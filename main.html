@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="header__logo--link">
+                <img src="/img/logo-colored.svg" alt="Logo" width="150" height="46">
+
+            </a>     
+            <div class="header__div">
+                <form class="header__form" id="form">
+                <input type="text" class="header__input border-info">
+                <select class="select">
+                    <option>All category</option>
+                    <option>Lorem, ipsum.</option>
+                    <option>Lorem, ipsum.</option>
+                </select>
+                <button class="header__btn">Search</button>
+            
+                </form>
+            </div>      
+            <div class="header__img--div ms-5">
+                <img src="/img/Profile.png" alt="img" width="37" height="41">
+                <img src="/img/Message.png" alt="img" width="52" height="41" class="ms-3">
+                <img src="/img/Orders.png" alt="img" width="37" height="41" class="ms-3">
+                <img src="/img/Cart.png" alt="img" width="37" height="41" class="ms-3">
+                <button class="btn btn-outline-primary logOut">Log out</button>
+            </div>
+        </div>
+    </header>
+    <header class="header__bottom">
+        <div class="container header__bottom--container">
+            <ul class="header__list list-unstyled d-flex justify-content-between align-items-center mt-4" style="width: 1080px; border-top: 1px solid black; border-bottom: 1px solid black;">
+                <li class="header__item me -2">
+                    <a href="#" class="header__bottom--link">
+                        <div class="content d-flex align-items-center justify-content-between" style="width: 120px;">
+                            <img src="/img/Vector.png" alt="#" width="18" height="12">
+                            <p class="header__bott--text pt-3 ps-1">All category</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="header__item me-2">
+                    <a href="#" class="header__bottom--link">
+                        <p class="header__bott--text pt-3">Hot offers</p>
+
+                    </a>
+                </li>
+                <li class="header__item me-2">
+                    <a href="#" class="header__bottom--link">
+                        <p class="header__bott--text pt-3">Gift boxes</p>
+
+                    </a>
+                </li >
+                <li class="header__item me-2">
+                    <a href="#" class="header__bottom--link">
+                        <p class="header__bott--text pt-3">Projects</p>
+
+                    </a>
+                </li>
+                <li class="header__item me-2">
+                    <a href="#" class="header__bottom--link">
+                        <p class="header__bott--text pt-3">Menu item</p>
+
+                    </a>
+                </li>
+                <li class="header__item" style="margin-right: 20px;">
+                    <select class="header__select" style="width: 100px;">
+                        <option class="select__option">Help</option>
+                        <option class="select__option">Lorem, ipsum.</option>
+                        <option class="select__option">Lorem, ipsum.</option>
+                    </select>
+                </li>
+                <li>
+                    <div class="header__bott--content d-flex">
+                        <select  class="header__bott--select">
+                            <option  class="header__option">English, USD</option>
+                            <option  class="header__option">Lorem, ipsum.</option>
+                            <option  class="header__option">Lorem, ipsum.</option>
+                        </select>
+                        <select  class="header__bott--select2">
+                            <option  class="header__option d-flex">
+                            
+                                <p class="option__text">Ship to  <i class="flag flag-germany"></i> </p>
+                                
+                            </option>
+                            <option  class="header__option">Lorem, ipsum.</option>
+                            <option  class="header__option">Lorem, ipsum.</option>
+                        </select>
+                    </div>
+        
+                </li>
+            </ul>
+            
+        </div>
+    </header>
+   <section class="section"  style="background-color: whitesmoke;">
+    <div class="container">
+        <p class="text66">Home > Clothings > Men’s wear > Summer clothing</p>
+        <ul class="form__list list-unstyled">
+            <li class="form__item">
+                <h4 class="category__title">Category</h4>
+            </li>
+            <li class="form__item">
+                <a href="#"><p class="category__text">Mobile accessory</p></a>
+            </li>
+            <li class="form__item">
+                <a href="#"><p class="category__text">Electronics</p></a>
+
+            </li>
+            <li class="form__item">
+                <a href="#"><p class="category__text">Smartphones </p></a>
+
+            </li>
+            <li class="form__item">
+                <a href="#"><p class="category__text">Modern tech</p></a>
+
+            </li>
+            <li class="form__item">
+                <a href="#" class="category__link">See all</a>
+
+            </li>
+        </ul>
+        <hr style="background-color: gray; width: 240px;">
+        <ul class="check__list list-unstyled">
+            <li class="input__item">
+                <h4>Brands</h4>
+            </li>
+            <li class="input__item">
+                <input type="checkbox" id="brends">
+                <label class="label__input" for="brends">Samsung</label>
+            </li>
+            <li class="input__item">
+                <input type="checkbox" id="brends1">
+                <label class="label__input" for="brends1">Apple</label>
+
+            </li>
+            <li class="input__item">
+                <input type="checkbox" id="brends2">
+                <label class="label__input" for="brends2">Huawei</label>
+                
+            </li>
+            <li class="input__item">
+                <input type="checkbox" id="brends3">
+                <label class="label__input" for="brends3">Pocco</label>
+
+            </li>
+            <li class="input__item">
+                <input type="checkbox" id="brends4">
+                <label class="label__input" for="brends4">Lenovo</label>
+
+            </li>
+        </ul>
+        <hr style="background-color: gray; width: 240px;">
+        <select style="background: none; font-family: 'Inter';font-style: normal; font-weight: 600; font-size: 16px;   line-height: 19px;        
+        color: #1C1C1C;">
+            <option>Parus</option>
+            <option>Parus</option>
+            <option>Parus</option>
+        </select>
+        <hr style="background-color: gray; width: 240px;">
+        <select style="background: none; font-family: 'Inter';font-style: normal; font-weight: 600; font-size: 16px;   line-height: 19px;        
+        color: #1C1C1C;">
+            <option>Condition</option>
+            <option>Parus</option>
+            <option>Parus</option>
+        </select>
+        <hr style="background-color: gray; width: 240px;">
+        <select style="background: none; font-family: 'Inter';font-style: normal; font-weight: 600; font-size: 16px;   line-height: 19px;        
+        color: #1C1C1C;">
+            <option>Ratings</option>
+            <option>Parus</option>
+            <option>Parus</option>
+        </select>
+        <hr style="background-color: gray; width: 240px;">
+        <select style="background: none; font-family: 'Inter';font-style: normal; font-weight: 600; font-size: 16px;   line-height: 19px;        
+        color: #1C1C1C;">
+            <option>Manufacturer</option>
+            <option>Parus</option>
+            <option>Parus</option>
+        </select>
+        <hr style="background-color: gray; width: 240px;">
+
+        <div class="row" style="margin-top: -730px;">
+            <form  class="form2 d-flex justify-content-around w-75" style="margin-left: 250px;">
+                <input type="search" class="form-input form-control w-25 container-fluid" >
+                <input type="number" class="form__input--number    form-control w-25 container-fluid" >
+                <button class="btn btn-primary container-fluid w-25">News</button>
+            </form>
+            <p class="length__text text-info text-start h2" style="padding-left: 300px; margin-bottom: -50px;">Result: <span class="length text-dark">0</span></p>
+            <p class="count-books__text text-center  text-info h2" style="padding-left: 200px;" >Total: <span class="count-books text-dark">0 </span></p>
+            <!-- Bookmark section (read and delete) -->
+            <div class="col-3 p-3 pe-4" style="margin-top: 630px;">
+                <h3 class="h3">Bookmarks</h3>
+                
+                <p class="fs-6">
+                    If you don't like to read, you haven't found the right book
+                </p>
+                
+                <ul class="border-0 rounded list-unstyled" id="bookmark-list">
+                    
+                </ul>
+                
+            </div>
+            
+            <!-- Render Books -->
+            
+            <div class="col-9 p-0 bg-light">
+                <ul class="d-flex justify-content-center flex-wrap" id="books-list">
+                    
+                </ul>
+                
+                <nav aria-label="Page navigation example" class="d-flex justify-content-center">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link bg-secondary text-white" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">...</a></li>
+                        <li class="page-item"><a class="page-link" href="#">16</a></li>
+                        <li class="page-item"><a class="page-link" href="#">17</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+   </section>
+
+    <div class="footer__top" style="background-color: #EFF2F4; padding-bottom: 40px;">
+        <div class="container footer__top--container">
+            <h2 class="text-center pt-5"> Subscribe on our newsletter</h2>
+            <p class="footer__top--text text-center">
+                Get daily news on upcoming offers from many suppliers all over the world
+            </p>
+            <div class="d-flex w-75" style="margin-left: 220px;">
+                <input type="email" class="form-control m-auto footer__top--input" style="width: 480px;" placeholder="Email">
+            <button class="btn btn-primary" style="margin-right: 200px;">Sebscribe</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer__bottom pt-5 pb-5">
+        <div class="container footer__bottom--container d-flex">
+            <div class="nmadr">
+                <img src="/img/logo-colored.svg" alt="logo" width="150" height="46">
+            <p class="footer__bottom--text">Best information about the company gies here but now lorem ipsum is</p>
+            <img class="footer__bottom--img mt-2" src="/img/Fill 183.png" alt="Fill" width="30" height="30">
+            <img class="footer__bottom--img ms-2 mt-2" src="/img/Fill 184.png" alt="Fill" width="30" height="30">
+            <img class="footer__bottom--img ms-2 mt-2" src="/img/Fill 209.png" alt="Fill" width="30" height="30">
+            <img class="footer__bottom--img ms-2 mt-2" src="/img/Combined Shape.png" alt="Fill" width="30" height="30">
+            <img class="footer__bottom--img ms-2 mt-2" src="/img/yt.png" alt="Fill" width="30" height="30">
+            </div>
+            <div class="content d-flex" style="margin-left: 65px;">
+                <ul class="footer__bottom--list list-unstyled">
+                    <li class="footer__bottom--item">
+                        <p class="footer__bottom--text55de ">About</p>
+                    </li>
+                    <li class="footer__bottom--item">
+                        <p class="footer__bottom--text55">About Us</p>
+                    </li>
+                    <li class="footer__bottom--item">
+                        <p class="footer__bottom--text55">Find store</p>
+                    </li>
+                <li class="footer__bottom--item">
+                    <p class="footer__bottom--text55">Categories</p>
+                </li>
+                <li class="footer__bottom--item">
+                    <p class="footer__bottom--text55">Blogs</p>
+                </li>
+            </ul>
+                <ul class="footer__bottom--list list-unstyled  ms-5">
+                    <li class="footer__bottom--item">
+                        <p class="footer__bottom--text55de ">Partnership</p>
+                    </li>
+                    <li class="footer__bottom--item">
+                        <p class="footer__bottom--text55">About Us</p>
+                    </li>
+                    <li class="footer__bottom--item">
+                        <p class="footer__bottom--text55">Find store</p>
+                    </li>
+                <li class="footer__bottom--item">
+                    <p class="footer__bottom--text55">Categories</p>
+                </li>
+                <li class="footer__bottom--item">
+                    <p class="footer__bottom--text55">Blogs</p>
+                </li>
+            </ul>
+                <ul class="footer__bottom--list list-unstyled ms-5">
+                    <li class="footer__bottom--item">
+                        <p class="footer__bottom--text55de ">Information</p>
+                    </li>
+                    <li class="footer__bottom--item">
+                        <p class="footer__bottom--text55">Help Center</p>
+                    </li>
+                    <li class="footer__bottom--item">
+                        <p class="footer__bottom--text55">Money Refund</p>
+                    </li>
+                <li class="footer__bottom--item">
+                    <p class="footer__bottom--text55">Shipping</p>
+                </li>
+                <li class="footer__bottom--item">
+                    <p class="footer__bottom--text55">Contact us</p>
+                </li>
+            </ul>
+                <ul class="footer__bottom--list list-unstyled ms-5">
+                    <li class="footer__bottom--item">
+                        <p class="footer__bottom--text55de ">For users</p>
+                    </li>
+                    <li class="footer__bottom--item">
+                        <p class="footer__bottom--text55">Login</p>
+                    </li>
+                    <li class="footer__bottom--item">
+                        <p class="footer__bottom--text55">Register</p>
+                    </li>
+                <li class="footer__bottom--item">
+                    <p class="footer__bottom--text55">Settings</p>
+                </li>
+                <li class="footer__bottom--item">
+                    <p class="footer__bottom--text55">My Orders</p>
+                </li>
+            </ul>
+        </div>
+        <div class="img__footer--div ms-4">
+            <p class="footer__bottom--text55de">Get app</p>
+            <img class="d-block" src="/img/Group.png" alt="appstore" width="125" height="42">
+            <img class="mt-3" src="/img/play.png" alt="appstore" width="125" height="42">
+        </div>
+    </div>
+    </footer>
+    <div class="container"  style="background-color: #EFF2F4; padding-top: 30px ;">
+        <div class="divdede d-flex justify-content-around">
+            <p class="footer__bottom--text55">© 2023 Ecommerce. </p>
+            <div class="d-flex">
+                <img src="/img/US@2x.svg" alt="img" width="24" height="17">
+                <p class="footer__bottom--text55">English</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal -->
+    <div class="offcanvas offcanvas-end book-modal" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel" class="book-modal-title">Python</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        
+        <div class="text-center mt-2">
+            <img class="book-modal-img" src="images/book.png" alt="book" width="120" height="150">
+        </div>
+        
+        <div class="offcanvas-body book-modal-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, at quia voluptatem corrupti temporibus sed? Asperiores cupiditate nostrum et perspiciatis tenetur aut nisi tempora, qui hic accusantium id. Voluptates adipisci doloremque cum facere? Est nihil tempora odit modi iusto asperiores mollitia blanditiis accusantium facere laborum voluptatibus ratione minus dicta commodi eveniet nemo repudiandae, officia fugiat velit autem sunt, ex quod nam? Facere eaque incidunt similique, debitis dolorem, tempora ratione unde suscipit, ex odio cupiditate explicabo praesentium? Soluta eveniet qui similique. Tempora inventore voluptatem quos tempore dolor, voluptatum, quo repellat architecto eveniet, ad magni iusto vitae debitis nisi unde rem. Aspernatur?
+        </div>
+        
+        <div class="book-modal-information ms-3 pt-3">
+            <p>Author: <span class="border border-primary rounded-pill pt-1 pb-1 pe-3 ps-3 text-info book-author">Sanjar</span></p>
+        </div>
+        
+        <div class="book-modal-information ms-3">
+            <p>Published: <span class="border border-primary rounded-pill pt-1 pb-1 pe-3 ps-3 text-info book-published">2001</span></p>
+        </div>
+        
+        <div class="book-modal-information ms-3">
+            <p>Publishers: <span class="border border-primary rounded-pill pt-1 pb-1 pe-3 ps-3 text-info book-publishers">Najot talim</span></p>
+        </div>
+        
+        <div class="book-modal-information ms-3">
+            <p>Categories: <span class="border border-primary rounded-pill pt-1 pb-1 pe-3 ps-3 text-info book-category">Computer</span></p>
+        </div>
+        
+        <div class="book-modal-information ms-3">
+            <p>Pages Count: <span class="border border-primary rounded-pill pt-1 pb-1 pe-3 ps-3 text-info book-page">777</span></p>
+        </div>
+        
+        <div class="text-end pe-4 pb-2">
+            <a type="button" class="btn btn-secondary pe-3 ps-3 reading-book" target="_blanc">Read</a>
+        </div>
+    </div>
+    
+    <!-- Template boooks -->
+    <template id="template-books">
+        <li class="card m-4 border-0 card-width">
+            <div class="p-3 pb-0">
+                <img class="p-3 bookmark bg-light" id="book-img" src="images/book.png" alt="book" width="201" height="202">
+            </div>
+            
+            <div class="p-3 pb-1">
+                <h5 class="book-title">Phyton</h5>
+                <p class="fw-lighter m-0" id="autor-book">David M.Beazley</p>
+                <p class="fw-lighter m-0" id="year-book">2009</p>
+            </div>
+            
+            <div class="p-3 pt-0 d-flex justify-content-evenly">
+                <button type="button" class="btn btn-warning" id="bookmark-btn">Bookmark</button>
+                <button class="btn  btn-outline-primary" id="modal-open-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">More info</button> <br>
+            </div>
+            
+            <div class="p-3 pt-0 d-grid gap-1">
+                <a type="button" target="_blanc" class="btn btn-secondary" id="read-book">Read</a>
+            </div>
+        </li>
+    </template>
+    
+    <!-- Template bookmarks -->
+    <template id="template-bookmark">
+        <li class="d-flex bg-light p-2 align-items-center mb-2">
+            <div>
+                <h6 class="mb-0 bookmark-title">Python</h6>
+                <p class="mb-0 fw-lighter bookmark-autor">David M.Beazley</p>
+            </div>
+            <div class="ms-5 d-flex">
+                <a type="button" target="_blanc" class="btn p-0 read-button me-2"><img src="img/book-open.png" alt="book" width="24" height="24"></a>
+                <button type="button" class="btn p-0"><img class="del-button" src="img/delete.png" alt="del" width="24" height="24"></button>
+            </div>
+        </li>
+    </template>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
